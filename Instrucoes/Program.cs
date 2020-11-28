@@ -125,6 +125,10 @@ namespace Instrucoes
         {
           throw new InvalidOperationException();
         }
+
+        double x = double.Parse(args[0]);
+        double y = double.Parse(args[1]);
+        Console.WriteLine(Dividir(x, y));
       }
       catch (InvalidOperationException e)
       {
@@ -138,7 +142,7 @@ namespace Instrucoes
 
     static void InstrucaoUsing(string[] args)
     {
-      using (System.IO.TextWriter w = System.IO.File.CreateText("texto.txt")) ;
+      using (System.IO.TextWriter w = System.IO.File.CreateText("texto.txt"))
       {
         w.WriteLine("Line 1");
         w.WriteLine("Line 2");
