@@ -4,7 +4,7 @@
 
 - [x] EtruturaDoProjeto
 
-- [ ] Instrucoes
+- [x] Instrucoes
 
 - [ ] Classes
 
