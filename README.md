@@ -6,7 +6,7 @@
 
 - [x] Instrucoes
 
-- [ ] Classes
+- [x] Classes
 
 - [ ] Revisao
 
